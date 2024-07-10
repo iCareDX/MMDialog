@@ -47,7 +47,7 @@ def gradio_clr():
 
 # GradioのUIを定義します
 with gr.Blocks() as webui:
-    gr.Markdown("japanese-stablelm-instruct-alpha-7b-v2 prompt test")
+    gr.Markdown("Llama-3-ELYZA-JP-8B-q4_k_m.gguf prompt test")
     with gr.Row():
           with gr.Column():
             sys_msg           = gr.Textbox(label="sys_msg", placeholder=" システムプロンプト")
